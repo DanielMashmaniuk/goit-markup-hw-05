@@ -317,7 +317,8 @@ ul{
 .li-team{
  height: 44px;
 }
-.icons:hover{
+.icons:hover,
+.icons:focus {
 fill: var(--primary-white-color);
 background-color: var(--accent-color);
 }
